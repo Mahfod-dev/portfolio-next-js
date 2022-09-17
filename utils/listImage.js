@@ -6,14 +6,9 @@ import Github from '../public/assets/images/skills/github1.png';
 import GithubWhite from '../public/assets/images/skills/githubwhite.png';
 import NextJsWhite from '../public/assets/images/skills/nexttest.png';
 import Firebase from '../public/assets/images/skills/firebase.png';
-import NextJS from '../public/assets/images/skills/nextjs.png';
 import MongoDb from '../public/assets/images/skills/mongo.png';
 import Node from '../public/assets/images/skills/node.png';
-import Docker from '../public/assets/images/skills/docker.png';
-import DockerWhite from '../public/assets/images/skills/dockerwhite2.png';
-import DockerWhite1 from '../public/assets/images/skills/dockerwhite1.png';
-import DockerWhite2 from '../public/assets/images/skills/docker1.png';
-import DockerWhite3 from '../public/assets/images/skills/design.png';
+
 import DockerWhite4 from '../public/assets/images/skills/design2.png';
 
 export const imageList = [
