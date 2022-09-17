@@ -1,12 +1,4 @@
-import {
-	Navbar,
-	Link,
-	Text,
-	Avatar,
-	Dropdown,
-	Image,
-	link,
-} from '@nextui-org/react';
+import { Navbar, Link, Text, Dropdown, Image } from '@nextui-org/react';
 import ThemeButton from '../Button/ThemeButton';
 
 export const NavBar = () => {

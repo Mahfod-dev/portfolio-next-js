@@ -1,4 +1,4 @@
-import { Container, Grid, Spacer, Text, Row } from '@nextui-org/react';
+import { Grid, Spacer, Text } from '@nextui-org/react';
 import { SocialIcon } from 'react-social-icons';
 import Image from 'next/image';
 

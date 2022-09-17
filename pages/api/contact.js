@@ -1,7 +1,6 @@
 const sgMail = require('@sendgrid/mail');
 require('dotenv').config();
 
-
 export default async function sendEmailSendGrid(req, res) {
 	const { message, email, name, textarea } = req.body;
 	try {
@@ -18,7 +17,6 @@ export default async function sendEmailSendGrid(req, res) {
 					`,
 		};
 		const info = await sgMail.send(msg);
-		res.json(info);
 	} catch (error) {
 		console.log(error);
 	}

@@ -2,7 +2,7 @@ import { Grid, Text, Spacer } from '@nextui-org/react';
 import Image from 'next/image';
 import aboutHero from '../../public/assets/images/aboutHero.svg';
 
-const About = () => {
+const AboutMe = () => {
 	return (
 		<section id='about'>
 			<Spacer />
@@ -39,4 +39,4 @@ const About = () => {
 		</section>
 	);
 };
-export default About;
+export default AboutMe;

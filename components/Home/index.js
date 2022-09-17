@@ -1,8 +1,6 @@
 import { Grid, Image, Text, Button, Container, Link } from '@nextui-org/react';
 
 const HomePage = () => {
-	const text = 'Maaaa';
-
 	return (
 		<Grid.Container
 			id='home'
