@@ -50,11 +50,13 @@ const Contact = () => {
 		e.preventDefault();
 		try {
 			const { data } = await axios.post('/api/contact', formData);
-			console.log(data);
+
 			if (data) {
 				toast.success('Email was sent');
 			}
-		} catch (error) {}
+		} catch (error) {
+			console.log(error);
+		}
 	};
 
 	return (
