@@ -1,10 +1,10 @@
 const sgMail = require('@sendgrid/mail');
 require('dotenv').config();
-
+console.log(process.env.SENDGRID_API_KEY);
 export default async function sendEmailSendGrid(req, res) {
 	const { message, email, name, textarea } = req.body;
 	try {
-		sgMail.setApiKey(process.env.API_KEY);
+		sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 		const msg = {
 			to: [`${email}`, 'md.techdevsup@gmail.com'], // Change to your recipient
 			from: 'mahfod.dev@gmail.com', // Change to your verified sender
@@ -17,6 +17,8 @@ export default async function sendEmailSendGrid(req, res) {
 					`,
 		};
 		const info = await sgMail.send(msg);
+
+		res.send('Succes');
 	} catch (error) {
 		console.log(error);
 	}
